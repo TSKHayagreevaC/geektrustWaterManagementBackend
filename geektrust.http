@@ -1,0 +1,10 @@
+###
+get http://localhost:3002/
+
+###
+post http://localhost:3002/uploadWaterBill
+Content-Type: application/json
+
+{
+   "tweet": "please caliculate water bill"
+}
